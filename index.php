@@ -59,7 +59,7 @@ function orderItem(itemID){
 		},
 		error: function(XMLHttpRequest, textStatus, errorThrown) { 
 			alert("Error");
-			console.log("Status: " , textStatus); console.log("Error: " , errorThrown); 
+			console.log("Status Jan: " , textStatus); console.log("Error Jan: " , errorThrown); 
 		}  
 	});
 
@@ -82,7 +82,7 @@ function orderItem(itemID){
 	<div class="top-bar">
 		<div class="top-bar-left">	
 			<ul class="menu">
-				<li class="menu-text">Microservices Store Demo</li>
+				<li class="menu-text">Microservices Store Demo Jan</li>
 			</ul>
 		</div>
 	</div>
